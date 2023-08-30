@@ -46,7 +46,11 @@ export function SettingsTabs() {
           title="Integrations"
           isSelected={currentTab === 'tab9'}
         />
-        <TabItem value="tab9" title="API" isSelected={currentTab === 'tab9'} />
+        <TabItem
+          value="tab10"
+          title="API"
+          isSelected={currentTab === 'tab10'}
+        />
       </Tabs.List>
     </Tabs.Root>
   )
